@@ -4,7 +4,7 @@ module SearchArchivedProjects
       base.send(:include, InstanceMethods)
 
       base.class_eval do
-        before_filter :check_for_search_archived
+        before_action :check_for_search_archived
       end
     end
 
