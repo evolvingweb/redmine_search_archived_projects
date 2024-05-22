@@ -13,5 +13,5 @@ Redmine::Plugin.register :redmine_search_archived_projects do
   url 'https://github.com/evolvingweb/redmine_evolvingweb_extensions'
   author_url 'http://evolvingweb.ca'
   description 'Allows searching through archived projects.'
-  version '0.0.1'
+  version '0.0.2'
 end
