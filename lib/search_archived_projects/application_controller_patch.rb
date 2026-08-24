@@ -25,7 +25,4 @@ module SearchArchivedProjects
 
     end
   end
-
-  # Add module to Welcome Controller
-  ApplicationController.send(:include, ApplicationControllerPatch)
 end

@@ -14,6 +14,4 @@ module SearchArchivedProjects
       end
     end
   end
-
-  Project.send(:include, ProjectPatch)
 end

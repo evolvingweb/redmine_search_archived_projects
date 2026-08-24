@@ -19,6 +19,4 @@ module SearchArchivedProjects
 
     end
   end
-
-  User.send(:include, UserPatch)
 end
